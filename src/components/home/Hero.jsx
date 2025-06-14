@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { GraduationCap, Users, Star, School, Award, Video } from "lucide-react";
 

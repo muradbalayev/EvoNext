@@ -79,6 +79,7 @@ const Navbar = () => {
     <div className="w-full max-w-[1440px] mx-auto ">
       <div className="flex justify-between items-center px-4 py-3 mx-auto ">
         <div className="w-[140px] h-auto ">
+          <Link href="/">
           <Image
             src="/logo.webp"
             alt="Logo"
@@ -86,6 +87,7 @@ const Navbar = () => {
             height={355}
             className="w-full h-auto"
           />
+          </Link>
         </div>
         <div className="navigation-menu">
           <NavigationMenu viewport={false}>
